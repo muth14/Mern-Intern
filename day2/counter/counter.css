@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #ff7e7e, #ffc6c6);
+  }
+  
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 150px;
+    border-radius: 25px;
+    background: #ffffff;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    border: 3px solid #ffabab;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .counter-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.3);
+  }
+  
+  #counter-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #444444;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  #counter-value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4a90e2;
+  }
+  
+  #increment-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background: #5e9bfc;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  #increment-btn:hover {
+    background: #347ed3;
+    transform: translateY(-3px);
+  }
+  
+  #increment-btn:active {
+    transform: translateY(0);
+  }
+  
